@@ -6,5 +6,11 @@
   
 <configuration>
 
-   
+   <typeAliases>
+	<typeAlias type="com.ham.main.question.QuestionDTO" alias="QuestionDTO"/>
+	<typeAlias type="com.ham.main.review.ReviewDTO" alias="ReviewDTO"/>
+ 	<typeAlias type="com.ham.main.member.MemberDTO" alias="MemberDTO"/>
+ 	<typeAlias type="com.ham.main.member.MemberFileDTO" alias="MemberFIleDTO"/>
+  </typeAliases>
+
 </configuration>
